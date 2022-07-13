@@ -12,14 +12,19 @@
 		CEAE75062874168A00CE4379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAE75052874168A00CE4379 /* Assets.xcassets */; };
 		CEAE75092874168A00CE4379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAE75082874168A00CE4379 /* Preview Assets.xcassets */; };
 		CEAE75102874172C00CE4379 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAE750F2874172C00CE4379 /* russia_losses_personnel.json */; };
-		CEAE75122874173200CE4379 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAE75112874173200CE4379 /* russia_losses_equipment.json */; };
 		CEAE7514287417A400CE4379 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7513287417A400CE4379 /* Image.swift */; };
 		CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751528741E9200CE4379 /* EquipmentLosses.swift */; };
 		CEAE75192874544400CE4379 /* ModellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE75182874544400CE4379 /* ModellData.swift */; };
 		CEAE751F2874555C00CE4379 /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751E2874555C00CE4379 /* DataRow.swift */; };
 		CEAE7521287457DF00CE4379 /* DataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7520287457DE00CE4379 /* DataList.swift */; };
 		CEAE752328745AB100CE4379 /* EquipmentLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */; };
-		CEAE752528747D1600CE4379 /* PersonnelLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752428747D1600CE4379 /* PersonnelLosses.swift */; };
+		CEAE75292878AEF700CE4379 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */; };
+		CEAE752D2879733F00CE4379 /* AnyCodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */; };
+		CEAE7539287BFEC300CE4379 /* PerssonalLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */; };
+		CEAE753D287C09A000CE4379 /* EquipmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE753C287C09A000CE4379 /* EquipmentButton.swift */; };
+		CEAE753F287C0CED00CE4379 /* PersonalDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */; };
+		CEAE7541287C0D5E00CE4379 /* PerssonalLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */; };
+		CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +34,19 @@
 		CEAE75052874168A00CE4379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAE75082874168A00CE4379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEAE750F2874172C00CE4379 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
-		CEAE75112874173200CE4379 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
 		CEAE7513287417A400CE4379 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		CEAE751528741E9200CE4379 /* EquipmentLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLosses.swift; sourceTree = "<group>"; };
 		CEAE75182874544400CE4379 /* ModellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModellData.swift; sourceTree = "<group>"; };
 		CEAE751E2874555C00CE4379 /* DataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRow.swift; sourceTree = "<group>"; };
 		CEAE7520287457DE00CE4379 /* DataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataList.swift; sourceTree = "<group>"; };
 		CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLossesDetail.swift; sourceTree = "<group>"; };
-		CEAE752428747D1600CE4379 /* PersonnelLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelLosses.swift; sourceTree = "<group>"; };
+		CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
+		CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodableValue.swift; sourceTree = "<group>"; };
+		CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonalLosses.swift; sourceTree = "<group>"; };
+		CEAE753C287C09A000CE4379 /* EquipmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentButton.swift; sourceTree = "<group>"; };
+		CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataList.swift; sourceTree = "<group>"; };
+		CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonalLossesDetail.swift; sourceTree = "<group>"; };
+		CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonelDataRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +90,7 @@
 		CEAE75072874168A00CE4379 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CEAE75112874173200CE4379 /* russia_losses_equipment.json */,
+				CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */,
 				CEAE750F2874172C00CE4379 /* russia_losses_personnel.json */,
 				CEAE75082874168A00CE4379 /* Preview Assets.xcassets */,
 				CEAE75052874168A00CE4379 /* Assets.xcassets */,
@@ -92,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				CEAE751528741E9200CE4379 /* EquipmentLosses.swift */,
-				CEAE752428747D1600CE4379 /* PersonnelLosses.swift */,
+				CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */,
+				CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */,
 				CEAE75182874544400CE4379 /* ModellData.swift */,
 			);
 			path = Model;
@@ -102,9 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				CEAE75032874168900CE4379 /* ContentView.swift */,
-				CEAE751E2874555C00CE4379 /* DataRow.swift */,
-				CEAE7520287457DE00CE4379 /* DataList.swift */,
+				CEAE753C287C09A000CE4379 /* EquipmentButton.swift */,
 				CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */,
+				CEAE7520287457DE00CE4379 /* DataList.swift */,
+				CEAE751E2874555C00CE4379 /* DataRow.swift */,
+				CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */,
+				CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */,
+				CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */,
 				CEAE7513287417A400CE4379 /* Image.swift */,
 			);
 			path = View;
@@ -170,7 +185,7 @@
 			files = (
 				CEAE75102874172C00CE4379 /* russia_losses_personnel.json in Resources */,
 				CEAE75092874168A00CE4379 /* Preview Assets.xcassets in Resources */,
-				CEAE75122874173200CE4379 /* russia_losses_equipment.json in Resources */,
+				CEAE75292878AEF700CE4379 /* russia_losses_equipment.json in Resources */,
 				CEAE75062874168A00CE4379 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,12 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAE751F2874555C00CE4379 /* DataRow.swift in Sources */,
+				CEAE752D2879733F00CE4379 /* AnyCodableValue.swift in Sources */,
+				CEAE753F287C0CED00CE4379 /* PersonalDataList.swift in Sources */,
+				CEAE7541287C0D5E00CE4379 /* PerssonalLossesDetail.swift in Sources */,
 				CEAE75042874168900CE4379 /* ContentView.swift in Sources */,
+				CEAE753D287C09A000CE4379 /* EquipmentButton.swift in Sources */,
 				CEAE752328745AB100CE4379 /* EquipmentLossesDetail.swift in Sources */,
+				CEAE7539287BFEC300CE4379 /* PerssonalLosses.swift in Sources */,
 				CEAE7521287457DF00CE4379 /* DataList.swift in Sources */,
 				CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */,
+				CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */,
 				CEAE75192874544400CE4379 /* ModellData.swift in Sources */,
-				CEAE752528747D1600CE4379 /* PersonnelLosses.swift in Sources */,
 				CEAE7514287417A400CE4379 /* Image.swift in Sources */,
 				CEAE75022874168900CE4379 /* Ukraine_Russian_WarApp.swift in Sources */,
 			);

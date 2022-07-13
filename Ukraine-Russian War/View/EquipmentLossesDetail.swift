@@ -8,42 +8,63 @@
 import SwiftUI
 
 struct EquipmentLossesDetail: View {
-
-    var perssonel: PersonnelLosses
-    var equipment: EquipmentLosses? = nil
+    
+    
+    var equipment: EquipmentLosses
+    
+   
+    
     var body: some View {
         VStack{
-            Text("Losses on: \(perssonel.date)")
-                .font(.title)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-                .padding(.trailing, 50)
+            TitleImage(image: Image("image1"))
+                .offset(x: 0, y: -120)
             VStack{
-            Text("Perssonel losses: \(perssonel.personnel )")
-            Text("Prisoner of War: \(perssonel.POW )")
-                Text("Armored Personnel Carrier: \(equipment?.APC ?? 0)")
-                Text("Multiple Rocket Launcher: \(equipment?.MRL ?? 0)")
-                Text("Aircraft: \(equipment?.aircraft ?? 0)")
-            Text("Anti-aircraft warfare:\(equipment?.anti_aircraft_warfare ?? 0)")
-            Text("Drone:\(equipment?.drone ?? 0)")
-            Text("Field Artillery:\(equipment?.fieldArtillery ?? 0)")
-            Text("Fuel Tank:\(equipment?.fuel_tank ?? 0)")
-                VStack{
-            Text("Helicopter:\(equipment?.helicopter ?? 0)")
-            Text("Military Auto:\(equipment?.military_auto ?? 0)")
-            Text("Naval Ship:\(equipment?.naval_ship ?? 0)")
-            Text("Tank:\(equipment?.tank ?? 0)")
-            Text("Mobile SRBM System:\(equipment?.mobile_SRBM_system ?? 0)")
-                }
+                Text("Losses on: \(equipment.date?.stringValue ?? "0")")
+                
+                    .font(.title)
+                    .fontWeight(.bold)
+                //.multilineTextAlignment(.center)
+                
+                
+                Group{
+                   
+                    Text("Armored Personnel Carrier: \(equipment.APC?.intValue ?? 0 )")
+                    Text("Multiple Rocket Launcher: \(equipment.MRL?.intValue ?? 0)")
+                    Text("Aircraft: \(equipment.aircraft?.intValue ?? 0 )")
+                    Text("Anti-aircraft warfare:\(equipment.anti_aircraft_warfare?.intValue ?? 0)")
+                    Text("Drone:\(equipment.drone?.intValue ?? 0 )")
+                   
+                }.padding(.leading, 20)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                
+                Group{
+                    Text("Field Artillery:\(equipment.fieldArtillery?.intValue ?? 0)")
+                    Text("Fuel Tank:\(equipment.fuel_tank?.intValue ?? 0)")
+                    
+                    Text("Helicopter:\(equipment.helicopter?.intValue ?? 0)")
+                    Text("Military Auto:\(equipment.military_auto?.intValue ?? 0) ")
+                    Text("Naval Ship:\(equipment.naval_ship?.intValue ?? 0 )")
+                    Text("Tank:\(equipment.tank?.intValue  ?? 0)")
+                    Text("Mobile SRBM System:\(equipment.mobile_SRBM_system?.intValue ?? 0)")
+                    Text("Special equipment \(equipment.special_equipment?.intValue ?? 0)")
+                }.padding(.leading, 20)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+               
             }
             
         }
-            
+        
+        
     }
-}
+  
+        
+    }
+
+
+
 
 struct EquipmentLossesDetail_Previews: PreviewProvider {
     static var previews: some View {
-        EquipmentLossesDetail(perssonel: personnelLosses[0], equipment: equipmentLosses[0])
+        EquipmentLossesDetail( equipment: equipmentLosses[0])
     }
 }

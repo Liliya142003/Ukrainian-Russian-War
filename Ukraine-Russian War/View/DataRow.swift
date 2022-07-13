@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct DataRow: View {
-    var dataRowLosses: PersonnelLosses
+    var dataRowLosses: EquipmentLosses
+   
+   
     var body: some View {
-        Text(dataRowLosses.date)
+        
+        HStack{
+            Text(" \(dataRowLosses.date?.stringValue ?? "0")")
+            Spacer()
+            Text("Day \(dataRowLosses.day?.intValue ?? 0)")
+        }
     }
 }
 
 struct DataRow_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            DataRow(dataRowLosses: personnelLosses[0])
-            DataRow(dataRowLosses: personnelLosses[1])
+            DataRow(dataRowLosses: equipmentLosses[0] )
+            DataRow(dataRowLosses: equipmentLosses[1])
             
         }
         .previewLayout(.fixed(width: 300, height: 70))

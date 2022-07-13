@@ -6,8 +6,9 @@
 //
 
 import Foundation
-var personnelLosses:[PersonnelLosses] = load("russia_losses_personnel.json")
 var equipmentLosses:[EquipmentLosses] = load("russia_losses_equipment.json")
+var personnelLosses:[PerssonalLosses] = load("russia_losses_personnel.json")
+
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
@@ -25,6 +26,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     do {
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
+        
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
