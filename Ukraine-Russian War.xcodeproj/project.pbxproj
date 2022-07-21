@@ -15,16 +15,16 @@
 		CEAE7514287417A400CE4379 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7513287417A400CE4379 /* Image.swift */; };
 		CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751528741E9200CE4379 /* EquipmentLosses.swift */; };
 		CEAE75192874544400CE4379 /* ModellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE75182874544400CE4379 /* ModellData.swift */; };
-		CEAE751F2874555C00CE4379 /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751E2874555C00CE4379 /* DataRow.swift */; };
-		CEAE7521287457DF00CE4379 /* DataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7520287457DE00CE4379 /* DataList.swift */; };
+		CEAE751F2874555C00CE4379 /* EquipmentDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751E2874555C00CE4379 /* EquipmentDataRow.swift */; };
+		CEAE7521287457DF00CE4379 /* EquipmentDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7520287457DE00CE4379 /* EquipmentDataList.swift */; };
 		CEAE752328745AB100CE4379 /* EquipmentLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */; };
 		CEAE75292878AEF700CE4379 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */; };
 		CEAE752D2879733F00CE4379 /* AnyCodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */; };
 		CEAE7539287BFEC300CE4379 /* PerssonalLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */; };
-		CEAE753D287C09A000CE4379 /* EquipmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE753C287C09A000CE4379 /* EquipmentButton.swift */; };
 		CEAE753F287C0CED00CE4379 /* PersonalDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */; };
 		CEAE7541287C0D5E00CE4379 /* PerssonalLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */; };
 		CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */; };
+		CEAE754728895C3F00CE4379 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE754628895C3F00CE4379 /* Sidebar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,16 +37,16 @@
 		CEAE7513287417A400CE4379 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		CEAE751528741E9200CE4379 /* EquipmentLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLosses.swift; sourceTree = "<group>"; };
 		CEAE75182874544400CE4379 /* ModellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModellData.swift; sourceTree = "<group>"; };
-		CEAE751E2874555C00CE4379 /* DataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRow.swift; sourceTree = "<group>"; };
-		CEAE7520287457DE00CE4379 /* DataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataList.swift; sourceTree = "<group>"; };
+		CEAE751E2874555C00CE4379 /* EquipmentDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDataRow.swift; sourceTree = "<group>"; };
+		CEAE7520287457DE00CE4379 /* EquipmentDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDataList.swift; sourceTree = "<group>"; };
 		CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLossesDetail.swift; sourceTree = "<group>"; };
 		CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
 		CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodableValue.swift; sourceTree = "<group>"; };
 		CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonalLosses.swift; sourceTree = "<group>"; };
-		CEAE753C287C09A000CE4379 /* EquipmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentButton.swift; sourceTree = "<group>"; };
 		CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataList.swift; sourceTree = "<group>"; };
 		CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonalLossesDetail.swift; sourceTree = "<group>"; };
 		CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonelDataRow.swift; sourceTree = "<group>"; };
+		CEAE754628895C3F00CE4379 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,16 +113,32 @@
 			isa = PBXGroup;
 			children = (
 				CEAE75032874168900CE4379 /* ContentView.swift */,
-				CEAE753C287C09A000CE4379 /* EquipmentButton.swift */,
+				CEAE754628895C3F00CE4379 /* Sidebar.swift */,
+				CEAE7513287417A400CE4379 /* Image.swift */,
+				CEAE75482889B1E500CE4379 /* EquipmentView */,
+				CEAE75492889B1FE00CE4379 /* PerssonelView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEAE75482889B1E500CE4379 /* EquipmentView */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE7520287457DE00CE4379 /* EquipmentDataList.swift */,
 				CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */,
-				CEAE7520287457DE00CE4379 /* DataList.swift */,
-				CEAE751E2874555C00CE4379 /* DataRow.swift */,
+				CEAE751E2874555C00CE4379 /* EquipmentDataRow.swift */,
+			);
+			path = EquipmentView;
+			sourceTree = "<group>";
+		};
+		CEAE75492889B1FE00CE4379 /* PerssonelView */ = {
+			isa = PBXGroup;
+			children = (
 				CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */,
 				CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */,
 				CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */,
-				CEAE7513287417A400CE4379 /* Image.swift */,
 			);
-			path = View;
+			path = PerssonelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,15 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAE751F2874555C00CE4379 /* DataRow.swift in Sources */,
+				CEAE751F2874555C00CE4379 /* EquipmentDataRow.swift in Sources */,
 				CEAE752D2879733F00CE4379 /* AnyCodableValue.swift in Sources */,
+				CEAE754728895C3F00CE4379 /* Sidebar.swift in Sources */,
 				CEAE753F287C0CED00CE4379 /* PersonalDataList.swift in Sources */,
 				CEAE7541287C0D5E00CE4379 /* PerssonalLossesDetail.swift in Sources */,
 				CEAE75042874168900CE4379 /* ContentView.swift in Sources */,
-				CEAE753D287C09A000CE4379 /* EquipmentButton.swift in Sources */,
 				CEAE752328745AB100CE4379 /* EquipmentLossesDetail.swift in Sources */,
 				CEAE7539287BFEC300CE4379 /* PerssonalLosses.swift in Sources */,
-				CEAE7521287457DF00CE4379 /* DataList.swift in Sources */,
+				CEAE7521287457DF00CE4379 /* EquipmentDataList.swift in Sources */,
 				CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */,
 				CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */,
 				CEAE75192874544400CE4379 /* ModellData.swift in Sources */,
@@ -346,7 +362,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +391,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

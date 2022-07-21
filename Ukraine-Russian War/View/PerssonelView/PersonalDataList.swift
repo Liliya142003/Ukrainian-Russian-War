@@ -13,7 +13,7 @@ struct PersonalDataList: View {
         
             
             VStack{
-                TitleImage(image: Image("image1"))
+               // TitleImage(image: Image("image1"))
                 List(personnelLosses, id: \.day?.intValue){
                     
                     data in NavigationLink {
@@ -26,7 +26,7 @@ struct PersonalDataList: View {
                     }
             }
         }
-        .navigationTitle("Date of Ukr-Russ War")
+        .navigationTitle("Perssonel Losses")
                 
             
         }

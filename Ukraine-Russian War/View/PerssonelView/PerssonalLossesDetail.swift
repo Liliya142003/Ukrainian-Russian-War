@@ -10,30 +10,20 @@ import SwiftUI
 struct PerssonalLossesDetail: View {
     var perssonel: PerssonalLosses
     var body: some View {
-        VStack{
-            TitleImage(image: Image("image1"))
-                .offset(x: 0, y: -120)
-            VStack{
-                Text("Losses on: \(perssonel.date?.stringValue ?? "0")")
+        
                 
-                    .font(.title)
-                    .fontWeight(.bold)
-                //.multilineTextAlignment(.center)
-                
-                
-                Group{
+                List{
                     Text("Perssonel losses: \(perssonel.personnel?.intValue ?? 0)")
                     Text("Prisoner of War: \(perssonel.POW?.intValue ?? 0 )")
                     
                    
-                }.padding(.leading, 20)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                }.navigationBarTitle("Losses on: \(perssonel.date?.stringValue ?? "0")", displayMode: .inline)
                 
                
                
-            }
             
-        }
+            
+        
         
         
     }

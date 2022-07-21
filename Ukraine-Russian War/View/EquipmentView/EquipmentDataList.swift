@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct DataList: View {
+struct EquipmentDataList: View {
     
     var body: some View {
        
             
             VStack{
-                TitleImage(image: Image("image1"))
+               // TitleImage(image: Image("image1"))
                 List(equipmentLosses, id: \.day?.intValue){
                     
                     data in NavigationLink {
@@ -22,11 +22,11 @@ struct DataList: View {
                         EquipmentLossesDetail(equipment: data) 
                    
                 
-                    } label: { DataRow(dataRowLosses: data)
+                    } label: { EquipmentDataRow(dataRowLosses: data)
                     }
             }
         }
-       .navigationTitle("Date of Ukr-Russ War")
+       .navigationTitle("Equipment Losses")
                 
             
         }
@@ -37,12 +37,12 @@ struct DataList: View {
 struct DataList_Previews: PreviewProvider {
     static var previews: some View {
        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max", "Ipad Pro (11-inch) (3rd generation)"], id: \.self) { deviceName in
-        DataList()
+        EquipmentDataList()
               .previewDevice(PreviewDevice(rawValue: deviceName))
                .previewDisplayName(deviceName)
     }
         NavigationView{
-            DataList()
+            EquipmentDataList()
         }
         
     }
