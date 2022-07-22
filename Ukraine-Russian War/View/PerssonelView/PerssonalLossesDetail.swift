@@ -10,7 +10,6 @@ import SwiftUI
 struct PerssonalLossesDetail: View {
     var perssonel: PerssonalLosses
     var body: some View {
-        
         List{
             Text("Perssonel losses: \(perssonel.personnel?.intValue ?? 0)")
             Text("Prisoner of War: \(perssonel.POW?.intValue ?? 0 )")

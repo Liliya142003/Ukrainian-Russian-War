@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            
             Sidebar()
         }
     }
@@ -22,6 +21,5 @@ struct ContentView_Previews: PreviewProvider {
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }
-        
     }
 }

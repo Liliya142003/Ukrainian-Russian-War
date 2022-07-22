@@ -33,7 +33,6 @@ struct EquipmentLossesDetail: View {
             .navigationBarTitle("Losses on: \(equipment.date?.stringValue ?? "0")", displayMode: .inline)
         }
     }
-    
 }
 
 struct EquipmentLossesDetail_Previews: PreviewProvider {

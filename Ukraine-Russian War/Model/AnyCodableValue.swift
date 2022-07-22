@@ -15,7 +15,6 @@ enum AnyCodableValue: Codable {
     case boolean(Bool)
     case null
     
-    
     init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
         
@@ -56,7 +55,6 @@ enum AnyCodableValue: Codable {
         
         throw DecodingError.typeMismatch(AnyCodableValue.self, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Wrong type"))
     }
-    
     
     func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
@@ -130,7 +128,7 @@ enum AnyCodableValue: Codable {
         case .integer(let s):
             return (Double(s))
         case .float(let s):
-            return (Double(s) ?? 0.0)
+            return (Double(s) )
         default:
             return 0.0
         }
@@ -150,5 +148,4 @@ enum AnyCodableValue: Codable {
         }
     }
 
-    
 }

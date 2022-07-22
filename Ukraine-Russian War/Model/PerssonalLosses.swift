@@ -33,7 +33,6 @@ struct PerssonalLosses:  Codable {
         self.day = .integer(0)
         self.personnel = .integer(0)
         self.POW = .integer(0)
-        
     }
 }
 

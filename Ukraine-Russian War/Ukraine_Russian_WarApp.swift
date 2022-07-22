@@ -11,7 +11,7 @@ import SwiftUI
 struct Ukraine_Russian_WarApp: App {
     var body: some Scene {
         WindowGroup {
-   Sidebar()
+            Sidebar()
         }
     }
 }
