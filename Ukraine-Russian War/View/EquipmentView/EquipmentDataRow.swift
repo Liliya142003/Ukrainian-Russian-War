@@ -9,10 +9,7 @@ import SwiftUI
 
 struct EquipmentDataRow: View {
     var dataRowLosses: EquipmentLosses
-    
-    
     var body: some View {
-        
         HStack{
             Text(" \(dataRowLosses.date?.stringValue ?? "0")")
             Spacer()

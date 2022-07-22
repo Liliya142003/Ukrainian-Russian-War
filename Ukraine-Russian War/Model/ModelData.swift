@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 var equipmentLosses:[EquipmentLosses] = load("russia_losses_equipment.json")
 var personnelLosses:[PerssonalLosses] = load("russia_losses_personnel.json")
 

@@ -14,7 +14,7 @@
 		CEAE75102874172C00CE4379 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAE750F2874172C00CE4379 /* russia_losses_personnel.json */; };
 		CEAE7514287417A400CE4379 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7513287417A400CE4379 /* Image.swift */; };
 		CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751528741E9200CE4379 /* EquipmentLosses.swift */; };
-		CEAE75192874544400CE4379 /* ModellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE75182874544400CE4379 /* ModellData.swift */; };
+		CEAE75192874544400CE4379 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE75182874544400CE4379 /* ModelData.swift */; };
 		CEAE751F2874555C00CE4379 /* EquipmentDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE751E2874555C00CE4379 /* EquipmentDataRow.swift */; };
 		CEAE7521287457DF00CE4379 /* EquipmentDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7520287457DE00CE4379 /* EquipmentDataList.swift */; };
 		CEAE752328745AB100CE4379 /* EquipmentLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */; };
@@ -36,7 +36,7 @@
 		CEAE750F2874172C00CE4379 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
 		CEAE7513287417A400CE4379 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		CEAE751528741E9200CE4379 /* EquipmentLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLosses.swift; sourceTree = "<group>"; };
-		CEAE75182874544400CE4379 /* ModellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModellData.swift; sourceTree = "<group>"; };
+		CEAE75182874544400CE4379 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		CEAE751E2874555C00CE4379 /* EquipmentDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDataRow.swift; sourceTree = "<group>"; };
 		CEAE7520287457DE00CE4379 /* EquipmentDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDataList.swift; sourceTree = "<group>"; };
 		CEAE752228745AB100CE4379 /* EquipmentLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLossesDetail.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				CEAE751528741E9200CE4379 /* EquipmentLosses.swift */,
 				CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */,
 				CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */,
-				CEAE75182874544400CE4379 /* ModellData.swift */,
+				CEAE75182874544400CE4379 /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 				CEAE7521287457DF00CE4379 /* EquipmentDataList.swift in Sources */,
 				CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */,
 				CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */,
-				CEAE75192874544400CE4379 /* ModellData.swift in Sources */,
+				CEAE75192874544400CE4379 /* ModelData.swift in Sources */,
 				CEAE7514287417A400CE4379 /* Image.swift in Sources */,
 				CEAE75022874168900CE4379 /* Ukraine_Russian_WarApp.swift in Sources */,
 			);
@@ -361,8 +361,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,8 +389,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

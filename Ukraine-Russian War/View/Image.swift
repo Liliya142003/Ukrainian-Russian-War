@@ -10,16 +10,11 @@ import SwiftUI
 struct TitleImage: View {
     var image: Image
     var body: some View {
-     image
+        image
             .resizable()
             .aspectRatio(contentMode: .fit)
-            
-
-    
     }
-    
 }
-
 struct TitleImage_Previews: PreviewProvider {
     static var previews: some View {
         TitleImage(image: Image("image1"))

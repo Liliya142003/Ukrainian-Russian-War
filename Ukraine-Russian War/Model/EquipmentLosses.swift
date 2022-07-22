@@ -7,9 +7,8 @@
 
 import Foundation
 import SwiftUI
+
 struct EquipmentLosses:  Codable {
-   
-    
     var date: AnyCodableValue?
     var day:AnyCodableValue?
     var aircraft:AnyCodableValue?
@@ -62,7 +61,6 @@ struct EquipmentLosses:  Codable {
             self.military_auto = try container.decodeIfPresent(AnyCodableValue.self, forKey: .military_auto)
             self.fuel_tank = try container.decodeIfPresent(AnyCodableValue.self, forKey: .fuel_tank)
             self.mobile_SRBM_system = try container.decodeIfPresent(AnyCodableValue.self, forKey: .mobile_SRBM_system)
-        
         }
         
     init(){
@@ -81,13 +79,7 @@ struct EquipmentLosses:  Codable {
             self.military_auto = .string("0")
             self.fuel_tank = .integer(0)
             self.mobile_SRBM_system = .string("0")
-       
-       
         }
-    
-  
- 
-        
     }
    
     

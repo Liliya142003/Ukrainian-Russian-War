@@ -12,8 +12,6 @@ struct ContentView: View {
         NavigationView{
             
 Sidebar()
-            
-            
         }
     }
 }
@@ -26,9 +24,6 @@ struct ContentView_Previews: PreviewProvider {
                .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
      }
-        //Group {
-        //    ContentView()
-        //    ContentView()
-      //  }
+        
     }
 }
