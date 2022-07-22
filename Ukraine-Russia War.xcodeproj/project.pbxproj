@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEAE74FE2874168900CE4379 /* Ukraine-Russian War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ukraine-Russian War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAE74FE2874168900CE4379 /* Ukraine-Russia War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ukraine-Russia War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAE75012874168900CE4379 /* Ukraine_Russian_WarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukraine_Russian_WarApp.swift; sourceTree = "<group>"; };
 		CEAE75032874168900CE4379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEAE75052874168A00CE4379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		CEAE74FF2874168900CE4379 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEAE74FE2874168900CE4379 /* Ukraine-Russian War.app */,
+				CEAE74FE2874168900CE4379 /* Ukraine-Russia War.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEAE74FD2874168900CE4379 /* Ukraine-Russian War */ = {
+		CEAE74FD2874168900CE4379 /* Ukraine-Russia War */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEAE750C2874168A00CE4379 /* Build configuration list for PBXNativeTarget "Ukraine-Russian War" */;
+			buildConfigurationList = CEAE750C2874168A00CE4379 /* Build configuration list for PBXNativeTarget "Ukraine-Russia War" */;
 			buildPhases = (
 				CEAE74FA2874168900CE4379 /* Sources */,
 				CEAE74FB2874168900CE4379 /* Frameworks */,
@@ -156,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = "Ukraine-Russian War";
+			name = "Ukraine-Russia War";
 			productName = "Ukraine-Russian War";
-			productReference = CEAE74FE2874168900CE4379 /* Ukraine-Russian War.app */;
+			productReference = CEAE74FE2874168900CE4379 /* Ukraine-Russia War.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEAE74F92874168900CE4379 /* Build configuration list for PBXProject "Ukraine-Russian War" */;
+			buildConfigurationList = CEAE74F92874168900CE4379 /* Build configuration list for PBXProject "Ukraine-Russia War" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEAE74FD2874168900CE4379 /* Ukraine-Russian War */,
+				CEAE74FD2874168900CE4379 /* Ukraine-Russia War */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEAE74F92874168900CE4379 /* Build configuration list for PBXProject "Ukraine-Russian War" */ = {
+		CEAE74F92874168900CE4379 /* Build configuration list for PBXProject "Ukraine-Russia War" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEAE750A2874168A00CE4379 /* Debug */,
@@ -415,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEAE750C2874168A00CE4379 /* Build configuration list for PBXNativeTarget "Ukraine-Russian War" */ = {
+		CEAE750C2874168A00CE4379 /* Build configuration list for PBXNativeTarget "Ukraine-Russia War" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEAE750D2874168A00CE4379 /* Debug */,
