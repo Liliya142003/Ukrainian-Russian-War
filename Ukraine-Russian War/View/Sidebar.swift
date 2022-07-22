@@ -18,9 +18,7 @@ struct Sidebar: View {
                 }
             }.listStyle(SidebarListStyle())
             EquipmentDataList()
-            // }
         } .navigationTitle("Ukr-Russ War")
-        
     }
 }
 struct Sidebar_Previews: PreviewProvider {

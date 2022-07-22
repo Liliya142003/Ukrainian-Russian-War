@@ -10,7 +10,6 @@ import SwiftUI
 struct EquipmentDataList: View {
     var body: some View {
         VStack{
-            // TitleImage(image: Image("image1"))
             List(equipmentLosses, id: \.day?.intValue){
                 data in NavigationLink {
                     EquipmentLossesDetail(equipment: data)

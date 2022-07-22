@@ -17,8 +17,6 @@ struct PerssonelDataRow: View {
         }
     }
 }
-    
-
 
 struct PerssonelDataRow_Previews: PreviewProvider {
     static var previews: some View {
