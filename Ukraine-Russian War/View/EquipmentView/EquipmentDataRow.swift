@@ -9,8 +9,8 @@ import SwiftUI
 
 struct EquipmentDataRow: View {
     var dataRowLosses: EquipmentLosses
-   
-   
+    
+    
     var body: some View {
         
         HStack{
