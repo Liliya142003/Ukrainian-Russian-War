@@ -7,29 +7,29 @@
 
 import SwiftUI
 
-struct PersonalDataList: View {
+struct PersonnelDataList: View {
     var body: some View {
         VStack{
             List(personnelLosses, id: \.day?.intValue){
                 data in NavigationLink {
-                    PerssonalLossesDetail(perssonel: data)
-                } label: { PerssonelDataRow(dataPersonalLosses: data)
+                    PersonnelLossesDetail(perssonel: data)
+                } label: { PersonnelDataRow(dataPersonalLosses: data)
                 }
             }
         }
-        .navigationTitle("Perssonel Losses")
+        .navigationTitle("Personnel Losses")
     }
 }
 
-struct PersonalDataList_Previews: PreviewProvider {
+struct PersonnelDataList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-            PersonalDataList()
+            PersonnelDataList()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }
         NavigationView {
-            PersonalDataList()
+            PersonnelDataList()
         }
     }
 }

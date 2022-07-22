@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct PerssonalLossesDetail: View {
+struct PersonnelLossesDetail: View {
     var perssonel: PerssonalLosses
     var body: some View {
         List{
-            Text("Perssonel losses: \(perssonel.personnel?.intValue ?? 0)")
+            Text("Personnel losses: \(perssonel.personnel?.intValue ?? 0)")
             Text("Prisoner of War: \(perssonel.POW?.intValue ?? 0 )")
         }.navigationBarTitle("Losses on: \(perssonel.date?.stringValue ?? "0")", displayMode: .inline)
     }
 }
 
-struct PerssonalLossesDetail_Previews: PreviewProvider {
+struct PersonnelLossesDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PerssonalLossesDetail(perssonel: personnelLosses[0])
+        PersonnelLossesDetail(perssonel: personnelLosses[0])
     }
 }

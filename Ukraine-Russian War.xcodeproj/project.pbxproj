@@ -21,9 +21,9 @@
 		CEAE75292878AEF700CE4379 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */; };
 		CEAE752D2879733F00CE4379 /* AnyCodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */; };
 		CEAE7539287BFEC300CE4379 /* PerssonalLosses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */; };
-		CEAE753F287C0CED00CE4379 /* PersonalDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */; };
-		CEAE7541287C0D5E00CE4379 /* PerssonalLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */; };
-		CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */; };
+		CEAE753F287C0CED00CE4379 /* PersonnelDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE753E287C0CED00CE4379 /* PersonnelDataList.swift */; };
+		CEAE7541287C0D5E00CE4379 /* PersonnelLossesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7540287C0D5E00CE4379 /* PersonnelLossesDetail.swift */; };
+		CEAE7543287C0E3600CE4379 /* PersonnelDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7542287C0E3500CE4379 /* PersonnelDataRow.swift */; };
 		CEAE754728895C3F00CE4379 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE754628895C3F00CE4379 /* Sidebar.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +43,9 @@
 		CEAE75282878AEF700CE4379 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
 		CEAE752C2879733F00CE4379 /* AnyCodableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodableValue.swift; sourceTree = "<group>"; };
 		CEAE7538287BFEC300CE4379 /* PerssonalLosses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonalLosses.swift; sourceTree = "<group>"; };
-		CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataList.swift; sourceTree = "<group>"; };
-		CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonalLossesDetail.swift; sourceTree = "<group>"; };
-		CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerssonelDataRow.swift; sourceTree = "<group>"; };
+		CEAE753E287C0CED00CE4379 /* PersonnelDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelDataList.swift; sourceTree = "<group>"; };
+		CEAE7540287C0D5E00CE4379 /* PersonnelLossesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelLossesDetail.swift; sourceTree = "<group>"; };
+		CEAE7542287C0E3500CE4379 /* PersonnelDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelDataRow.swift; sourceTree = "<group>"; };
 		CEAE754628895C3F00CE4379 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,9 +134,9 @@
 		CEAE75492889B1FE00CE4379 /* PerssonelView */ = {
 			isa = PBXGroup;
 			children = (
-				CEAE7542287C0E3500CE4379 /* PerssonelDataRow.swift */,
-				CEAE7540287C0D5E00CE4379 /* PerssonalLossesDetail.swift */,
-				CEAE753E287C0CED00CE4379 /* PersonalDataList.swift */,
+				CEAE7542287C0E3500CE4379 /* PersonnelDataRow.swift */,
+				CEAE7540287C0D5E00CE4379 /* PersonnelLossesDetail.swift */,
+				CEAE753E287C0CED00CE4379 /* PersonnelDataList.swift */,
 			);
 			path = PerssonelView;
 			sourceTree = "<group>";
@@ -216,14 +216,14 @@
 				CEAE751F2874555C00CE4379 /* EquipmentDataRow.swift in Sources */,
 				CEAE752D2879733F00CE4379 /* AnyCodableValue.swift in Sources */,
 				CEAE754728895C3F00CE4379 /* Sidebar.swift in Sources */,
-				CEAE753F287C0CED00CE4379 /* PersonalDataList.swift in Sources */,
-				CEAE7541287C0D5E00CE4379 /* PerssonalLossesDetail.swift in Sources */,
+				CEAE753F287C0CED00CE4379 /* PersonnelDataList.swift in Sources */,
+				CEAE7541287C0D5E00CE4379 /* PersonnelLossesDetail.swift in Sources */,
 				CEAE75042874168900CE4379 /* ContentView.swift in Sources */,
 				CEAE752328745AB100CE4379 /* EquipmentLossesDetail.swift in Sources */,
 				CEAE7539287BFEC300CE4379 /* PerssonalLosses.swift in Sources */,
 				CEAE7521287457DF00CE4379 /* EquipmentDataList.swift in Sources */,
 				CEAE751628741E9200CE4379 /* EquipmentLosses.swift in Sources */,
-				CEAE7543287C0E3600CE4379 /* PerssonelDataRow.swift in Sources */,
+				CEAE7543287C0E3600CE4379 /* PersonnelDataRow.swift in Sources */,
 				CEAE75192874544400CE4379 /* ModelData.swift in Sources */,
 				CEAE7514287417A400CE4379 /* Image.swift in Sources */,
 				CEAE75022874168900CE4379 /* Ukraine_Russian_WarApp.swift in Sources */,

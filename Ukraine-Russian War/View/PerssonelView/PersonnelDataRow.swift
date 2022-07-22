@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PerssonelDataRow: View {
+struct PersonnelDataRow: View {
     var dataPersonalLosses: PerssonalLosses
     var body: some View {
         HStack{
@@ -18,9 +18,9 @@ struct PerssonelDataRow: View {
     }
 }
 
-struct PerssonelDataRow_Previews: PreviewProvider {
+struct PersonnelDataRow_Previews: PreviewProvider {
     static var previews: some View {
-        PerssonelDataRow(dataPersonalLosses: personnelLosses[0])
-        PerssonelDataRow(dataPersonalLosses: personnelLosses[1])
+        PersonnelDataRow(dataPersonalLosses: personnelLosses[0])
+        PersonnelDataRow(dataPersonalLosses: personnelLosses[1])
     }
 }

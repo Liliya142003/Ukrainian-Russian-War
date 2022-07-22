@@ -13,8 +13,8 @@ struct Sidebar: View {
             Group{
                 TitleImage(image: Image("image1"))
                 List{
-                    NavigationLink("Equipment Losses", destination: EquipmentDataList())
-                    NavigationLink("Personal Losses", destination: PersonalDataList())
+                    NavigationLink(" Equipment Losses of russia", destination: EquipmentDataList())
+                    NavigationLink(" Personnel Losses of russia", destination: PersonnelDataList())
                 }
             }.listStyle(SidebarListStyle())
             EquipmentDataList()
